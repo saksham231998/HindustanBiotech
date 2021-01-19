@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <form>
+        <div class="row mb-3">
+          <label for="prodnameId" class="col-sm-2 col-form-label">Product Name:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="prodnameId">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="prodQuantity" class="col-sm-2 col-form-label">Product Quantity:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="prodQuantity">
+          </div>
+        </div>
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Transport Type:</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="DTDC" value="DTDC" checked>
+                <label class="form-check-label" for="DTDC">
+                  DTDC
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="Road" value="Road">
+                <label class="form-check-label" for="Road">
+                  Road
+                </label>
+              </div>
+    
+          </fieldset>
+        
+          <button type="submit" class="btn btn-primary">Submit Order</button>
+        </form>
+
+
+</body>
+</html>
